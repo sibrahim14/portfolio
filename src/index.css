@@ -26,5 +26,6 @@ html, body, #root {
   /* place animation behind page content */
   z-index: 0;
   overflow: hidden;
+ 
 }
 

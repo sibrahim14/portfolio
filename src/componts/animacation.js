@@ -16,7 +16,7 @@ export async function initTubes (canvasElement) {
     tubes: {
       colors: ["#f967fb", "#53bc28", "#6958d5"],
       lights: {
-        intensity: 200,
+        intensity: 100,
         colors: ["#83f36e", "#fe8a2e", "#ff008a", "#60aed5"]
       }
     }
@@ -51,3 +51,6 @@ function randomColors (count) {
     .fill(0)
     .map(() => "#" + Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0'));
 }
+
+
+

@@ -42,7 +42,7 @@ const Skills = () => {
               className="card"
               style={{
                 "--index": index,
-                "--color-card": "255, 204, 21",
+                "--color-card": "204, 255, 221  ",
               }}
             >
               <div className="skill-card">

@@ -27,7 +27,7 @@
 .logo-text {
   font-size: 1.6rem;
   font-weight: 700;
-  color:hwb(299 3% 30%);
+  color:aquamarine;
   text-decoration: none;
   transition: all 0.3s ease;
   font-family: 'Poppins', sans-serif;
@@ -59,12 +59,12 @@
   left: 10px;
   height: 2px;
   width: 0;
-  background: #facc15;
+  background:aquamarine ;
   transition: width 0.3s ease;
 }
 
 .nav-link:hover {
-  color: #facc15;
+  color: #0d7997;
 }
 
 .nav-link:hover::after {
@@ -88,6 +88,27 @@
 }
 
 /* ===== MY PAGE ===== */
+
+
+.text-type {
+  display: inline-block;
+  white-space: pre-wrap;
+}
+
+.text-type__cursor {
+  margin-left: 0.25rem;
+  display: inline-block;
+  opacity: 1;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+
 .mypage {
   display: flex;
   flex-direction: column;
@@ -95,7 +116,7 @@
   justify-content: center;
   text-align: center;
   height: 100vh;
-  color: white;
+  color: rgb(11, 153, 169);
  
   padding: 2rem;
     position: relative; /* make z-index work */
@@ -109,15 +130,15 @@
   margin: 0 auto 1.5rem;
   border-radius: 50%;
   overflow: hidden;
-  border: 4px solid #facc15;
-  box-shadow: 0 0 40px rgba(250, 204, 21, 0.7);
+  border: 4px solid aquamarine;
+  box-shadow: 0 0 40p (250, 204, 21, 0.7);
   position: relative;
   transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
 .myimg:hover {
   transform: scale(1.08);
-  box-shadow: 0 0 60px rgba(250, 204, 21, 0.8);
+  box-shadow: 0 0 60px 
 }
 
 .myimg img {
@@ -135,13 +156,16 @@
   font-weight: 800;
   margin-bottom: 1rem;
   animation: fadeInDown 1.2s ease forwards;
-  color:hwb(299 3% 30%);
+     background: -webkit-linear-gradient(#999, #148bbe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
 }
 
 /* Role */
 .role {
   font-size: 1.5rem;
-  color: #115ccd;
+  color: darkkhaki;
   margin-bottom: 2rem;
   animation: fadeInUp 1.5s ease forwards;
 }
@@ -160,28 +184,29 @@
 
 /* Primary Button */
 .work {
-  background: linear-gradient(hwb(299 3% 30%));
+  background: linear-gradient(hwb(204 16% 41%));
   color: #000;
 }
 
 .work:hover {
-  background: linear-gradient(90deg, #fde047, #facc15);
+  background: linear-gradient(90deg, #999, #05855e);
   transform: translateY(-3px);
-  box-shadow: 0 4px 15px rgba(250, 204, 21, 0.5);
+  box-shadow: 0 4px 15px #05855e(250, 204, 21, 0.5);
 }
 
 /* Outline Button */
 .contact {
-  border: 2px solid hwb(299 3% 30%);
+  border: 2px solid hwb(242 25% 27%);
   color: hwb(203 11% 45%);
   margin-left: 1rem;
 }
 
 .contact:hover {
-  background: #1293c2;
+ background: linear-gradient(90deg, #999, #05855e);
+  transform: translateY(-3px);
   color: #000;
   transform: translateY(-3px);
-  box-shadow: 0 4px 15px rgba(250, 204, 21, 0.5);
+  box-shadow: 0 4px 15px rgba(23, 137, 203, 0.5);
 }
 
 /* Animations */
@@ -221,7 +246,7 @@
 .aboutsection h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: hwb(299 3% 30%);
+  color: aquamarine;
   transition: transform 0.3s ease;
 }
 
@@ -339,7 +364,7 @@
 .skills-title {
   font-size: 2.5rem;
   font-weight: 700;
-  color: hwb(299 3% 30%);
+  color: aquamarine;
   margin-bottom: 60px;
   letter-spacing: 3px;
 }
@@ -377,7 +402,7 @@
 .contact-title {
   font-size: 2.8rem;
   font-weight: bold;
-  color: hwb(299 3% 30%);
+  color: aquamarine;
   margin-bottom: 1.5rem;
 }
 
