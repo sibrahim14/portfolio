@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope,  } from "react-icons/fa";
 
 
 export default function Contact() {
@@ -17,7 +17,7 @@ export default function Contact() {
         </a>
 
         <a
-          href="https://github.com/dashboard"
+          href="https://github.com/sibrahim14"
           target="_blank"
           rel="noopener noreferrer"
           className="contact-icon"
@@ -35,20 +35,13 @@ export default function Contact() {
         >
           <FaLinkedin />
         </a>
-        <a
-          href="https://www.instagram.com/_lucky__74"
-          target="_blank"
-          rel="noreferrer"
-          className="contact-icon"
-        >
-          <FaInstagram /></a>
-
+        
       </div>
 
       {/* ==== Contact Form ==== */}
       <form
         className="contact-form"
-        action="https://formspree.io/f/your-form-id"  // You can replace this with your backend or Formspree ID
+        action="https://formspree.io/f/mjkpppep"  // You can replace this with your backend or Formspree ID
         method="POST"
       >
         <input

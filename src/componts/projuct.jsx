@@ -9,26 +9,26 @@ const projects = [
     desc: "Modern online store with cart, filtering, and secure payments.",
     img: ecommerceImg,
     tags: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/dashboard",
+    github: "https://github.com/sibrahim14",
     demo: "https://srkmart.vercel.app/",
   },
   
-  {
-    title: "Ultimate Camera Catalog",
-    desc: "Personal portfolio built using React, Tailwind, and Framer Motion.",
-    img: camers,  
-    tags: ["React", "Tailwind", "Framer Motion"],
-    github: "https://github.com/dashboard",
-    demo: "#",
-  },
-  {
-    title: "Weather App",
-    desc: "Responsive weather app using real-time API integration.",
-    img: "https://cdn.dribbble.com/userupload/8788123/file/original-2d3a8b7b98.png",
-    tags: ["HTML", "CSS", "API"],
-    github: "https://github.com/dashboard",
-    demo: "#",
-  },
+  // {
+  //   title: "Ultimate Camera Catalog",
+  //   desc: "Personal portfolio built using React, Tailwind, and Framer Motion.",
+  //   img: camers,  
+  //   tags: ["React", "Tailwind", "Framer Motion"],
+  //   github: "https://github.com/sibrahim14",
+  //   demo: "#",
+  // },
+  // {
+  //   title: "Weather App",
+  //   desc: "Responsive weather app using real-time API integration.",
+  //   img: "https://cdn.dribbble.com/userupload/8788123/file/original-2d3a8b7b98.png",
+  //   tags: ["HTML", "CSS", "API"],
+  //   github: "https://github.com/sibrahim14",
+  //   demo: "#",
+  // },
 ];
 
 const Projects = () => {

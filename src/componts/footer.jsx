@@ -23,7 +23,7 @@ const Footer = () => {
         {/* Right Side — Social Icons */}
         <div className="social-icons ">
           <a
-            href="https://github.com/dashboard"
+            href="https://github.com/sibrahim14"
             target="_blank"
             rel="noreferrer"
             className="hover:text-yellow-400"

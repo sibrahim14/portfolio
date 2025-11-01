@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+*{
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
- /* position: relative; make z-index work
+
+
+/* position: relative; make z-index work
   z-index: 1; this is main code page showing with the help of this 
   code  */
 
@@ -286,7 +297,7 @@
 /* ===== SKILLS SECTION ===== */
 .wrapper {
   width: 100%;
-  height: 320px;
+  height: 450px;
   position: relative;
   text-align: center;
   display: flex;
@@ -421,20 +432,20 @@
 }
 
 .contact-icon {
-  font-size: 2.5rem;
-  color: #1695b8;
+  font-size: 2.3rem;
+  color: aquamarine;
   transition: all 0.4s ease;
-  border: 2px solid rgba(250, 204, 21, 0.4);
-  border-radius: 50%;
-  padding: 0.8rem;
-  box-shadow: 0 0 20px rgba(250, 204, 21, 0.2);
+  border: 2px solid rgba(57, 119, 185, 0.4);
+  border-radius: 5%;
+  padding: 0.5rem;
+  box-shadow: 0 0 20px rgba(24, 130, 165, 0.2);
 }
 
 .contact-icon:hover {
-  transform: scale(1.2);
+  transform: scale(1.3);
   color: #fff;
   background: #148bbe;
-  box-shadow: 0 0 30px rgba(250, 204, 21, 0.5);
+  box-shadow: 0 0 3px rgba(30, 163, 235, 0.5);
 }
 
 .contact-form {
@@ -727,7 +738,7 @@ background: linear-gradient(135deg, #0d7997, #bf4ca4);
 
 /* Name */
 .footer-content h3 {
-  color: #facc15;
+  color: aquamarine;
   font-size: 1.5rem;
   font-weight: 700;
   transition: color 0.3s ease;
@@ -768,12 +779,12 @@ background: linear-gradient(135deg, #0d7997, #bf4ca4);
   left: 0;
   width: 0%;
   height: 2px;
-  background-color: #facc15;
+  background-color: aquamarine;
   transition: width 0.3s ease;
 }
 
 .page-links li a:hover {
-  color: #facc15;
+  color: bisque;
 }
 
 .page-links li a:hover::after {
