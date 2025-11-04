@@ -6,7 +6,7 @@ import About from './about.jsx'
 import Footer from './footer.jsx'
 import Skills from './skills.jsx'
 import Projects from './projuct.jsx'
-
+import Certificate from './certificate.jsx'
 
 const Landingpage = () => {
   return (
@@ -15,6 +15,7 @@ const Landingpage = () => {
         <My />
       <About />
       <Skills />
+      <Certificate/>
       <Projects />
      <Contact />
       <Footer />
