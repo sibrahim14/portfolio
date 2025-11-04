@@ -4,7 +4,7 @@ import CertificateImg from "../assets/certificates.jpg";
 // Example certificate data
 const certificates = [
   {
-    title: "intinship",
+    title: "internship",
     issuer: "Udemy",
     date: "March 2025",
     image: CertificateImg,  // put your image in public/certificates/
