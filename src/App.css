@@ -16,12 +16,16 @@
 
 /* ===== NAVBAR ===== */
 .navbar {
-  position: sticky;
+  /* position: sticky; */
+  position: fixed;
   top: 0;
   z-index: 50;
   width: 100%;
-  border-bottom: 1px solid rgba(174, 15, 151, 0.2);
+  /* border-bottom: 1px solid rgba(174, 15, 151, 0.2); */
   box-shadow: 0 4px 20px rgba(175, 27, 109, 0.1);
+  background-color: #000;
+  backdrop-filter: blur(10px);
+  
 }
 
 /* Inner Container */
@@ -38,15 +42,15 @@
 .logo-text {
   font-size: 1.6rem;
   font-weight: 700;
-  color:aquamarine;
+  color:#dfd8e0;
   text-decoration: none;
   transition: all 0.3s ease;
   font-family: 'Poppins', sans-serif;
 }
 
 .logo-text:hover {
-  color: #7f0794;
-  text-shadow: 0 0 8px rgba(214, 204, 6, 0.8);
+  color: #0d7997;
+  text-shadow: 0 0 8px rgba(20, 95, 116, 0.8);
 }
 
 /* Nav Links */
