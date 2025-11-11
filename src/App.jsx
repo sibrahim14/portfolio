@@ -4,6 +4,7 @@ import { initTubes } from './componts/animacation.js';
 import Landingpage from './componts/laningpage.jsx';
 import Navbar from './componts/navebar.jsx';
 import About from './componts/about.jsx';
+import LenisScroll from "./LenisScroll.jsx";
 
 
 const App = () => {
@@ -33,7 +34,7 @@ const App = () => {
       {/* main content: sits above the animation visually */}
       <div className="relative z-20 min-h-screen">
         <Landingpage/>
-        
+         <LenisScroll />
       </div>
     </div>
   )
