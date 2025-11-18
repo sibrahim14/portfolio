@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import ecommerceImg from "../assets/ecommerce.png";
-import camers from "../assets/cameras.png";
+import traviles from "../assets/traviles.png"
 
 const projects = [
   {
@@ -13,14 +13,14 @@ const projects = [
     demo: "https://srkmart.vercel.app/",
   },
   
-  // {
-  //   title: "Ultimate Camera Catalog",
-  //   desc: "Personal portfolio built using React, Tailwind, and Framer Motion.",
-  //   img: camers,  
-  //   tags: ["React", "Tailwind", "Framer Motion"],
-  //   github: "https://github.com/sibrahim14",
-  //   demo: "#",
-  // },
+  {
+    title: "Car travils Website",
+    desc: "Personal traviles wabsyte built using Next.ts .",
+    img: traviles,  
+    tags: ["Next.js", "css", "Typescript"],
+    github: "https://github.com/sibrahim14",
+    demo: "#",
+  },
   // {
   //   title: "Weather App",
   //   desc: "Responsive weather app using real-time API integration.",
