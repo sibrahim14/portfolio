@@ -14,7 +14,7 @@ const projects = [
   },
   
   {
-    title: "Car travils Website",
+    title: "Car traviles Website",
     desc: "Personal traviles wabsyte built using Next.ts .",
     img: traviles,  
     tags: ["Next.js", "css", "Typescript"],
